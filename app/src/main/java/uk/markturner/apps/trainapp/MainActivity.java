@@ -248,12 +248,13 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     return true;}
 
     @Override
-   protected void onActivityResult(int requestCode, int resultCode, Intent data){
-       try {
-           if (data.hasExtra("TOSEARCH")) { //If the callback comes with data
-               mStationInput.setText(data.getStringExtra("TOSEARCH")); //Put this data (Station name) into the textbox
+   protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        try {
+            if (data.hasExtra("TOSEARCH")) { //If the callback comes with data
+                mStationInput.setText(data.getStringExtra("TOSEARCH")); //Put this data (Station name) into the textbox
                 findViewById(R.id.searchButton).performClick(); //"Presses" the search button
-           }
-       } catch (Exception e) {} //If there is no data, just ignore it.
+            }
+        } catch (Exception e) {} //If there is no data, just ignore it.
     }
 }
