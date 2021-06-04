@@ -10,10 +10,7 @@ A train timetable app for the UK which shows you arrivals / departure boards, al
 - Set alarms for when you're nearing your station
 - Refresh only on-demand so it doesn't matter if you lose connection
 
-<img src="Screenshots/DelayReason.png" alt="Departure Board" width="200"/>
-<img src="Screenshots/DepartingTrain.png" alt="Departing Train" width="200"/>
-<img src="Screenshots/SetAlarm.png" alt="Setting Alarm" width="200"/>
-<img src="Screenshots/SavedTrains.png" alt="Saving Trains" width="200"/>
+<img src="Screenshots/DelayReason.png" alt="Departure Board" width="200"/><img src="Screenshots/DepartingTrain.png" alt="Departing Train" width="200"/><img src="Screenshots/SetAlarm.png" alt="Setting Alarm" width="200"/><img src="Screenshots/SavedTrains.png" alt="Saving Trains" width="200"/>
 
 ## Usage
 
@@ -37,9 +34,12 @@ TrainApp uses a number of projects, including:
 
 ## Known Issues
 
-- The JSON parsing is bad. Like really bad. I would be embarassed if I wasn't so tired after wrestling with the SOAP API
-- Probably as a result of the above, sometimes the output in the train view is malformed
+- The XML parsing is bad. Like really bad. I would be embarassed if I wasn't so tired after wrestling with the SOAP API
+- Probably as a result of the above, sometimes the output in the train view is malformed. This app is very much in alpha
 - Refresh doesn't do anything for Arrival trains
 - I'm very new to Android development, so I've no idea of the best practices and efficiencies
+- Perhaps someone more creative than me can think of a better name
+
+I'd like to fix the above before I even think about additional features.
 
 <img src="Screenshots/About.png" alt="About" width="200"/>
