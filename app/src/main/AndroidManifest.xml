@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uk.markturner.apps.trainapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Departures Board"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="uk.markturner.apps.trainapp.ViewSavedTrains"
+            android:label="Saved Trains"
+            android:parentActivityName="uk.markturner.apps.trainapp.MainActivity"
+            android:screenOrientation="portrait">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="uk.markturner.apps.trainapp.ViewSavedTrains" />
+        </activity>
+
+        <activity
+            android:name="uk.markturner.apps.trainapp.ViewStations"
+            android:label="Stations List"
+            android:parentActivityName="uk.markturner.apps.trainapp.MainActivity"
+            android:screenOrientation="portrait">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="uk.markturner.apps.trainapp.ViewStations" />
+        </activity>
+
+        <activity
+            android:name="uk.markturner.apps.trainapp.About"
+            android:label="About"
+            android:parentActivityName="uk.markturner.apps.trainapp.MainActivity"
+            android:screenOrientation="portrait">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="uk.markturner.apps.trainapp.About" />
+        </activity>
+
+        <activity
+            android:name="uk.markturner.apps.trainapp.ViewTrainInfo"
+            android:label="Train Info"
+            android:parentActivityName="uk.markturner.apps.trainapp.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="uk.markturner.apps.trainapp.ViewTrainInfo" />
+        </activity>
+        <activity
+            android:name="uk.markturner.apps.trainapp.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

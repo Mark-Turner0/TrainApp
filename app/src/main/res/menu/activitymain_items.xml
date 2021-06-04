@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/arrivalsBoard"
+        android:title="@string/arrivals_board" />
+    <item
+        android:id="@+id/savedTrainsList"
+        android:title="@string/viewSavedTrains" />
+    <item
+        android:id="@+id/view_stations"
+        android:title="@string/stationsList" />
+    <item
+        android:id="@+id/view_about"
+        android:title="@string/about" />
+</menu>

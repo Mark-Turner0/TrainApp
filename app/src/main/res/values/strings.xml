@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TrainApp</string>
+    <string name="instructions">Enter a station code to view departures. "</string>
+    <string name="button_text">Get Trains</string>
+    <string name="input_hint">Station Code</string>
+    <string name="no_results">No Results Found</string>
+    <string name="loading">Loading...</string>
+    <string name="no_search_term">Please enter a station code</string>
+    <string name="no_network">Please check your network connection and try again.</string>
+    <string name="wrong_code"><![CDATA[<b><font color=#FF0000>No stations with this code found.</font></b>]]></string>
+    <string name="title_activity_view_train_info">ViewTrainInfo</string>
+    <string name="delayed"><![CDATA[<b><font color=#FF0000>Delayed</font></b>]]></string>
+    <string name="cancelled"><![CDATA[<b><font color=#FF0000>Cancelled</font></b>]]></string>
+    <string name="no_calling">This train does not call at any other stations</string>
+    <string name="default_time">00:00</string>
+    <string name="default_platform">Platform X</string>
+    <string name="origin">Origin:</string>
+    <string name='destination'>Destination:</string>
+    <string name="save_train">Add Train to Your List</string>
+    <string name="toilet_check">Toilet Check</string>
+    <string name="no_trains">No trains left for today!</string>
+    <string name="arrivals_board">Arrivals Board</string>
+    <string name="stationsList">View Stations List</string>
+    <string name="viewSavedTrains">Load Saved Trains</string>
+    <string name="legal">Powered by National Rail Enquiries</string>
+    <string name="about_text">© Mark Turner 2021</string>
+    <string name="JDOM_attr">This product includes software developed by the JDOM Project (http://www.jdom.org/).</string>
+    <string name="powered_intro">The train results in this app are</string>
+    <string name="disclaimer">Disclaimer: This app is not endorsed in any way by National Rail. Although you probably already knew that with all the bugs.</string>
+    <string name="about">About</string>
+</resources>
