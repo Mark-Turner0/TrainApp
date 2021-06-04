@@ -1,6 +1,6 @@
 # TrainApp
 
-![Pipeline Build Badge](https://gitlab.com/Mark-Turner0/TrainApp/badges/master/pipeline.svg)
+[![Pipeline Build Badge](https://gitlab.com/Mark-Turner0/TrainApp/badges/master/pipeline.svg)](https://gitlab.com/Mark-Turner0/trainapp/-/pipelines/latest)
 
 A train timetable app for the UK which shows you arrivals / departure boards, allows you to save trains and track them later, and allows you to set alarms when you're close to your station. For Android only.
 
